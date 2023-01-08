@@ -1,0 +1,17 @@
+{
+  "name": "selenium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "selenium.js",
+  "scripts": {
+    "start": "node selenium.js",
+    "test": "npm install inherits && mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^108.0.0",
+    "inherits": "^2.0.4",
+    "mocha": "^10.2.0"
+  }
+}
